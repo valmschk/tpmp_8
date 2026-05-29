@@ -1,0 +1,16 @@
+// Альтернативный метод для копирования .plist в Documents Directory
+func copyPlistToDocuments() {
+    let fileManager = FileManager.default
+    let documentsPath = NSSearchPathForDirectoriesInDomains(.documentDirectory, .userDomainMask, true)[0]
+    let destinationPath = URL(fileURLWithPath: documentsPath).appendingPathComponent("Data.plist")
+    
+    // Проверяем, существует ли файл уже в Documents
+    if !fileManager.fileExists(atPath: destinationPath.path) {
+        // Копируем из Bundle
+        if let bundlePath = Bundle.main.path(forResource: "Data", ofType: "plist") {
+            try? fileManager.copyItem(atPath: bundlePath, toPath: destinationPath.path)
+        }
+    }
+    
+    plistPath = destinationPath.path
+}
