@@ -1,0 +1,24 @@
+## Интерфейс Main.storyboard
+
+### Компоненты:
+
+| Компонент | Тип | IBOutlet | Назначение |
+|-----------|-----|----------|------------|
+| Заголовок | UILabel | - | "Определение геолокации" |
+| Status Label | UILabel | statusLabel | Отображение статуса (разрешено/запрещено) |
+| Latitude Label | UILabel | latitudeLabel | Отображение широты |
+| Longitude Label | UILabel | longitudeLabel | Отображение долготы |
+| Кнопка | UIButton | getLocationButton | Получить координаты |
+
+### Constraints:
+- statusLabel: centerX, top: 120, width: 350, height: 40
+- latitudeLabel: centerX, top: 200, width: 350, height: 50
+- longitudeLabel: centerX, top: 270, width: 350, height: 50
+- getLocationButton: centerX, top: 360, width: 200, height: 50
+
+### Связи:
+- statusLabel → @IBOutlet weak var statusLabel
+- latitudeLabel → @IBOutlet weak var latitudeLabel
+- longitudeLabel → @IBOutlet weak var longitudeLabel
+- getLocationButton → @IBOutlet weak var getLocationButton
+- getLocationButton Touch Up Inside → getLocationTapped:
