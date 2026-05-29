@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <!-- Разрешение на геолокацию -->
+    <key>NSLocationWhenInUseUsageDescription</key>
+    <string>Приложение использует карту для отображения вашего местоположения</string>
+    
+    <!-- Для работы в фоне (опционально) -->
+    <key>UIBackgroundModes</key>
+    <array>
+        <string>location</string>
+    </array>
+</dict>
+</plist>
