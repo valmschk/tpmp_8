@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <!-- Другие настройки -->
+    
+    <!-- КЛЮЧЕВОЙ: разрешение на использование геолокации -->
+    <key>NSLocationWhenInUseUsageDescription</key>
+    <string>Приложение использует ваше местоположение для демонстрации работы CoreLocation</string>
+    
+    <!-- Опционально: для фонового режима -->
+    <!-- <key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+    <string>Приложение использует ваше местоположение в фоне</string> -->
+    
+</dict>
+</plist>
