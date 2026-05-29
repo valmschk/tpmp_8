@@ -1,0 +1,21 @@
+## Интерфейс Main.storyboard
+
+### Компоненты:
+
+| Компонент | Тип | Назначение |
+|-----------|-----|------------|
+| UILabel (заголовок) | UILabel | "Работа с .plist" |
+| UILabel (displayLabel) | UILabel | Отображение сохраненного значения |
+| UITextField (inputTextField) | UITextField | Поле для ввода нового текста |
+| UIButton (saveButton) | UIButton | Кнопка "SAVE" |
+
+### Constraints:
+- displayLabel: centerX, top: 120, width: 300, height: 50
+- inputTextField: centerX, top: 200, width: 300, height: 44
+- saveButton: centerX, top: 270, width: 150, height: 44
+
+### Связи (IBOutlet/IBAction):
+- displayLabel → @IBOutlet weak var displayLabel
+- inputTextField → @IBOutlet weak var inputTextField
+- saveButton → @IBOutlet weak var saveButton
+- saveButton Touch Up Inside → saveButtonTapped:
