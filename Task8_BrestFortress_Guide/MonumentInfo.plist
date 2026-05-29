@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Монумент Мужество</key>
+    <dict>
+        <key>Name</key>
+        <string>Монумент Мужество</string>
+        <key>Icon</key>
+        <string>icon_courage</string>
+        <key>Coordinates</key>
+        <string>52.0833° N, 23.6533° E</string>
+        <key>Description</key>
+        <string>Главный монумент мемориала, высота 33.5 метра. Скульптура воина с знаменем. Открыт в 1971 году.</string>
+    </dict>
+    <key>Холмские ворота</key>
+    <dict>
+        <key>Name</key>
+        <string>Холмские ворота</string>
+        <key>Icon</key>
+        <string>icon_gate</string>
+        <key>Coordinates</key>
+        <string>52.0827° N, 23.6578° E</string>
+        <key>Description</key>
+        <string>Ворота с мостом через ров, сохранившие следы от пуль и снарядов. Являлись главным въездом в цитадель.</string>
+    </dict>
+    <key>Тереспольские ворота</key>
+    <dict>
+        <key>Name</key>
+        <string>Тереспольские ворота</string>
+        <key>Icon</key>
+        <string>icon_terespol</string>
+        <key>Coordinates</key>
+        <string>52.0820° N, 23.6520° E</string>
+        <key>Description</key>
+        <string>Ворота со стороны реки Буг. Через них шли основные атаки немецких войск.</string>
+    </dict>
+    <key>Оборона Восточного форта</key>
+    <dict>
+        <key>Name</key>
+        <string>Оборона Восточного форта</string>
+        <key>Icon</key>
+        <string>icon_fort</string>
+        <key>Coordinates</key>
+        <string>52.0850° N, 23.6600° E</string>
+        <key>Description</key>
+        <string>Здесь советские солдаты держали оборону до 30 июня 1941 года. Форт был взорван немцами.</string>
+    </dict>
+</dict>
+</plist>
